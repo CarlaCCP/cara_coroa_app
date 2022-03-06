@@ -127,9 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
               color: Colors.blue,
-              onPressed: () {
-                _gerarFrase;
-              },
+              onPressed: _gerarFrase,
             )
           ],
         ),
